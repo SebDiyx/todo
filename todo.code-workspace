@@ -13,7 +13,8 @@
             "ms-vscode.vscode-typescript-next",
             "aaron-bond.better-comments",
             "DavidAnson.vscode-markdownlint",
-            "Prisma.prisma"
+            "Prisma.prisma",
+            "bradlc.vscode-tailwindcss"
         ]
     },
     "settings": {
@@ -37,6 +38,9 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "[markdown]": {
             "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+        },
+        "[prisma]": {
+            "editor.defaultFormatter": "Prisma.prisma"
         },
         "typescript.preferences.importModuleSpecifier": "relative"
     }
