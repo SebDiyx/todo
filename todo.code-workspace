@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"name": "✨ todo",
+			"path": "."
+		},
+	],
+	"extensions": {
+		"recommendations": [
+			"esbenp.prettier-vscode",
+			"dbaeumer.vscode-eslint",
+			"eamodio.gitlens",
+			"ms-vscode.vscode-typescript-next",
+			"aaron-bond.better-comments",
+			"DavidAnson.vscode-markdownlint",
+            "Prisma.prisma"
+		]
+	},
+	"settings": {
+		// "typescript.tsdk": "✨ glx-one/.yarn/sdks/typescript/lib",
+		// "typescript.enablePromptUseWorkspaceTsdk": true,
+		"search.exclude": {
+			"**/.next": true,
+			"**/node_modules": true,
+		},
+		"eslint.packageManager": "npm",
+		"eslint.codeActionsOnSave.mode": "all",
+		"eslint.run": "onType",
+		"editor.tabSize": 4,
+		"eslint.enable": true,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": false,
+			"source.organizeImports": false
+		},
+		"eslint.format.enable": true,
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"typescript.preferences.importModuleSpecifier": "relative",
+	},
+
+}
