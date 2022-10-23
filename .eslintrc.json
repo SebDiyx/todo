@@ -3,6 +3,26 @@
     "parserOptions": {
         "project": "./tsconfig.json"
     },
-    "plugins": ["@typescript-eslint"],
-    "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"]
+    "plugins": ["@typescript-eslint", "react", "react-hooks"],
+    "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
+    "rules": {
+        "curly": ["error", "multi-line"],
+        "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/require-await": "error",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-unused-vars": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/ban-ts-comment": "off",
+        "@typescript-eslint/no-empty-interface": "off",
+
+        "react/self-closing-comp": [
+            "error",
+            {
+                "component": true,
+                "html": true
+            }
+        ],
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn"
+    }
 }
